@@ -1,0 +1,44 @@
+{
+  "name": "react-hooks",
+  "version": "0.0.1",
+  "description": "A collection of common react hooks used at Creuna",
+  "main": "index.js",
+  "files": [
+    "*.js",
+    "CHANGELOG.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "generate": "node ./build/generate-index.js",
+    "generate:docs": "node ./build/generate-docs.js && node ./build/generate-readme.js",
+    "build": "babel source -d .",
+    "clean": "node ./build/clean-files.js",
+    "test": "ava"
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "collection"
+  ],
+  "author": "@jorgenlybeck",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.12.0",
+    "@babel/core": "^7.12.0",
+    "@babel/preset-env": "^7.12.0",
+    "@babel/preset-react": "^7.10.4",
+    "@babel/register": "^7.12.0",
+    "ava": "^3.13.0",
+    "babel-eslint": "^10.1.0",
+    "chalk": "^4.1.0",
+    "eslint": "^7.11.0",
+    "eslint-config-prettier": "^6.12.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.1.2"
+  },
+  "dependencies": {
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0"
+  }
+}
