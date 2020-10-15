@@ -4,6 +4,8 @@
 
 ## 👩‍💻 Usage
 
+> _Installation is not ready yet!_
+
 A collection of Hooks created by Creuna to be implemented in projects.
 
 npm i @creuna/hooks -s
