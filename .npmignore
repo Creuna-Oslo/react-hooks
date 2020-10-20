@@ -1,8 +1,0 @@
-*.test.*
-.babelrc
-.eslintrc.json
-.gitignore
-.npmrc
-source
-tests
-yarn.lock
